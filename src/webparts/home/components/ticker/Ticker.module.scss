@@ -1,0 +1,112 @@
+.ticker-wrapper {
+    border: 1px solid "[theme: themePrimary, default: grey]"; 
+    justify-content: flex-start;
+    float: left;
+    width: 100%;
+}
+
+.ticker-wrapper-label {
+    background-color:"[theme: themePrimary, default: grey]"; 
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid "[theme: themePrimary, default: grey]"; 
+    float: left;
+    width: 200px;
+    padding: 0px 10px;
+    padding-bottom: 1px;
+    line-height: 32px;
+}
+
+.ticker-wrapper-label h3 {
+    font-size: 17px;
+    color: #fff;
+}
+
+
+.ticker-wrapper-slider {
+    background-color: #fff;
+    color: #000;
+    padding: 11px;
+
+}
+
+.ticker-wrapper-slider-content {
+    display: -ms-inline-grid;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.custom-arrow {
+    position: absolute;
+    z-index: 1;
+}
+
+.custom-prev-arrow {
+    right: 25px;
+    top: 5px;
+}
+
+.custom-next-arrow {
+    right: 0;
+    top: 5px;
+}
+
+.card-content {
+    padding: 0px 10px;
+}
+
+.ticker-wrapper {
+    /* Add your general styles for the ticker wrapper */
+
+    @media screen and (max-width: 768px) {
+        /* Adjust styles for screens with a width of 768 pixels or less */
+        /* For example, set padding to a smaller value */
+        padding: 10px;
+        width: auto;
+
+        .ticker-wrapper-label {
+            /* Styles for the label section in the ticker wrapper */
+            width: 100%;
+            padding: 0px;
+
+            h3 {
+                /* Styles for the heading inside the label section */
+                margin: 0;
+                /* Remove default margin */
+            }
+        }
+    }
+}
+
+.ticker-wrapper-slider {
+    /* Styles for the slider section in the ticker wrapper */
+    /* Add your general styles for the slider wrapper */
+
+    @media screen and (max-width: 768px) {
+        /* Adjust styles for screens with a width of 768 pixels or less */
+        /* For example, set overflow to auto to enable horizontal scrolling on small screens */
+        overflow: auto;
+        width: 100%;
+        padding: 0px;
+    }
+}
+
+.ticker-wrapper-slider-content {
+    /* Styles for the content section inside the slider */
+
+    /* Add your general styles for the slider content */
+
+    .card-container {
+        /* Styles for individual cards within the slider */
+
+        @media screen and (max-width: 768px) {
+            /* Adjust styles for screens with a width of 768 pixels or less */
+            /* For example, set width to 100% for full-width cards on small screens */
+            width: 100%;
+        }
+    }
+}

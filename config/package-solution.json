@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "terra-engineering-client-side-solution",
+    "id": "3895b3a9-48bd-48b5-ac6f-eb762c5ee0e0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "terra-engineering description"
+      },
+      "longDescription": {
+        "default": "terra-engineering description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "terra-engineering Feature",
+        "description": "The feature that activates elements of the terra-engineering solution.",
+        "id": "37da309d-7e49-478d-a33f-4c5dff365801",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/terra-engineering.sppkg"
+  }
+}

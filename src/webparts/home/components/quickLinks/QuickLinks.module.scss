@@ -1,0 +1,94 @@
+.tab-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #fff;
+    margin-left: -10px;
+    padding-right: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+        width: 8px; /* Adjust the width as needed */
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color:"[theme: themePrimary, default: grey]"; /* Adjust the color as needed */
+        height: 50px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    
+     /* Hide scrollbar when not needed */
+     overflow-y: auto;
+     scrollbar-width: thin; /* Firefox support */
+     scrollbar-color: "[theme: themePrimary, default: grey]" #f1f1f1; /* Firefox support */
+ 
+     /* JavaScript to hide scrollbar when not needed */
+     .js & {
+         scrollbar-width: none; /* For browsers that support this property */
+         -ms-overflow-style: none; /* For IE and Edge */
+         &::-webkit-scrollbar {
+             display: none; /* For WebKit browsers */
+         }
+     }
+}
+
+.tab-wrapper-label {
+    background-color: cadetblue;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid cadetblue;
+    display: flex;
+    padding: 10px;
+}
+
+.tab-wrapper-slider {
+    background-color: gainsboro;
+    color: #000;
+    padding: 10px 0;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.tab-wrapper-slider-content>.slick-slide {
+    margin: auto 5px;
+}
+
+.custom-arrow {
+    position: absolute;
+    z-index: 9;
+}
+
+.custom-prev-arrow {
+    right: 25px;
+    top: 5px;
+}
+
+.custom-next-arrow {
+    right: 0;
+    top: 5px;
+}
+
+.card-container {
+    width: 100%;
+}
+.card-container:hover {
+    width: 100%;
+}
+
+.card-content {
+    background-color: #fff;
+    margin: 2px;
+    padding: 10px;
+    color: #000;
+    word-wrap: break-word;
+}
+.card-content:hover{
+    background-color: grey;
+    color: #fff;
+    cursor: pointer;
+}

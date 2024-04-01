@@ -1,0 +1,72 @@
+.main-menu {
+    display: flex;
+}
+
+
+
+.menu-item {
+    width: 150px;
+    margin-right: 10px;
+}
+
+
+.menu-item a,.menu-item a :hover, .menu-item a:visited,.main-menu a:active, .menu-item li a,
+.menu-item li a :hover, .menu-item li a:visited,.main-menu li a:active {
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.menu-item a :hover,
+.menu-item li a :hover {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+
+.sub-menu {
+    width: 150px;
+    padding:0px;
+    position: absolute;
+    z-index: 9;
+    margin-top: 0px;
+}
+
+.main-menu span, .menu-item span, .menu-item div  {
+    background-color: "[theme: themePrimary, default: grey]";
+    color: #fff;    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 10px;
+    cursor: pointer; 
+ }
+
+ .sub-menu li  {
+    background-color: "[theme: themePrimary, default: grey]";
+    color: #fff;
+    padding: 10px;   
+    list-style: none;
+    margin-top: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;  
+    padding: 0px;
+    display: block;
+ }
+ .sub-menu li :hover {
+    background-color: gainsboro;
+    color: #000;  
+     
+ }
+
+
+.sub-menu ul{
+    margin-left: 142px;
+    margin-top: 0px;
+}
+ 
+    
+  

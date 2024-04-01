@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.15.0",
+    "libraryName": "terra-engineering",
+    "libraryId": "3895b3a9-48bd-48b5-ac6f-eb762c5ee0e0",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "terra-engineering",
+    "solutionShortDescription": "terra-engineering description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
